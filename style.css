@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffcb05, #6bc882);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Título */
+h1 {
+    color: white;
+    margin-top: 30px;
+}
+
+/* Input y botón */
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+/* Mensaje */
+#mensaje {
+    margin: 10px;
+    color: white;
+}
+
+/* Tarjeta */
+.contenedor {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Imagen */
+#imagen {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+/* Texto */
+#nombre {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+#id, #altura, #peso, #tipo {
+    margin: 5px 0;
+    font-size: 14px;
+}
